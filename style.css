@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#full-day{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.time-container{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.text-primary{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(14, 239, 235);
+}
+
+small{
+    margin-left: 710px;
+    font-size: 15px;
+}
+
+a{
+    color: rgb(14, 239, 235);
+}
+
+form{
+    text-align: center;
+    margin-top: 20px;
+}
+
+input{
+    padding: 10px;
+    width: 500px;
+    border: 1px solid rgb(217, 208, 214);
+    border-radius: 5px;
+}
+
+input{
+    border: 1px solid rgb(14, 239, 235);
+}
+
+#message-create{
+    color: red;
+    font-size: 15px;
+    margin-right: 350px;
+    padding-top: 10px;
+}
+
+ul{
+    margin: auto;
+    padding: 10px;
+    width: 500px;
+    border: 1px solid rgb(217, 208, 214);
+    border-radius: 5px;
+    border: 1px solid rgb(14, 239, 235);
+    list-style-type: none;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+}
+
+#qalam{
+    color: rgb(241, 169, 34);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#musor{
+    color: red;
+}
+
+
+#input-edit{
+    display: block;
+    width: 300px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+input{
+    display: block;
+    margin: auto;
+    
+}
+
+.add{
+    margin-left: 480px;
+    padding: 10px;
+    height: 30px;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid rgb(14, 239, 235);
+    color: black;
+    background-color: white;
+}
+
+.add :hover{
+    background-color: rgb(14, 239, 235);
+}
+
+li{
+    padding: 15px;
+}
+
+.modal-todo{
+    position: fixed;
+    max-width: 500px;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(34, 34, 34, 0.5);
+    backdrop-filter: blur(3px);
+    z-index: 50;
+}
+
+.hidden{
+    display: none;
+}
+
+/* .complated{
+    opacity: 0.5;
+} */
+
+/* .completed{
+    opacity: 0.5;
+} */
+
+h5{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.button{
+    border:1px solid rgb(14, 239, 235);
+    background-color: white;
+    color: black;padding: 15px;
+    border-radius: 5px;
+}
+
+.button :hover{
+    background-color: aqua;
+}
+
+#message-edit{
+    color: red;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h5 span{
+    margin-left: 110px;
+    color: black;
+}
